@@ -1,7 +1,7 @@
 import math
 
 
-b = 1000000000000
+b = 10
 a = 0.5 + math.sqrt(0.25+(b*(b-1)/2))
 for i in range(10000000000000):
     b += 1
